@@ -3,9 +3,9 @@ PLEASE NOTE - DUE TO THE DANGERS OF PUBLICALLY POSTING MY IP ADDRESS, I WILL BE 
 ## Automated ELK Stack Deployment
 
 The files in this repository were used to configure the network depicted below.
- -https://docs.google.com/document/d/1iDux4_C0U7LmxjyFNCfgDMH1ynXyNuR6RNpqeW5_S6Q/edit?usp=sharing  
+-https://docs.google.com/document/d/1iDux4_C0U7LmxjyFNCfgDMH1ynXyNuR6RNpqeW5_S6Q/edit?usp=sharing  
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the ansible file may be used to install only certain pieces of it, such as Filebeat.
 
   - Ansible Playbook located at: root@59b5aa7cb5bf:/etc/ansible# 
 
