@@ -3,7 +3,7 @@ PLEASE NOTE - DUE TO THE DANGERS OF PUBLICALLY POSTING MY IP ADDRESS, I WILL BE 
 ## Automated ELK Stack Deployment
 
 The files in this repository were used to configure the network depicted below.
- ![](images/diagram.pdf)  
+ -https://docs.google.com/document/d/1iDux4_C0U7LmxjyFNCfgDMH1ynXyNuR6RNpqeW5_S6Q/edit?usp=sharing  
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -57,7 +57,7 @@ A summary of the access policies in place can be found in the table below.
 | Jump Box | Yes                 | (MYIP)               |
 | Web-1    | No                  | 10.2.0.7             |
 | Web-2    | No                  | 10.2.0.8             |
-| Web-3    | No                  | 10.2.0.10             |
+| Web-3    | No                  | 10.2.0.10            |
 | RedTeamVM| SSH-no  HTTP-yes    | 10.4.0.4/(MYIP)      |
 
 ### Elk Configuration
@@ -94,15 +94,15 @@ These Beats allow us to collect the following information from each machine:
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- Copy the ansible file to "./etc/ansible/playbook"
+- Copy the ansible file to "/etc/ansible/playbook"
 - Update the /etc/ansible/hosts file to include the IPs of the servers we want to install packages on.
 - Run the playbook and navigate to remote host to ensure installation is complete.
 
-- _Which file is the playbook? Where do you copy it?-   elkplaybook.yml      root@59b5aa7cb5bf:/etc/ansible# 
+- My playbook is called elkplaybook.yml and I saved it to: /etc/ansible/elkplaybook.yml 
 - _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?-
     -The etc/ansible/playbook must be updated to include the ELK and DVWA.
     -By adding the IPs of the servers that services will be installed on.
 - _Which URL do you navigate to in order to check that the ELK server is running?
-    -"http://[HOST-PUBLIC-IP]:5601/app/kibana"  (replace 'HOST-PUBLIC-IP' with host IPI) 
+    -"http://[HOST-PUBLIC-IP]:5601/app/kibana"  (replace 'HOST-PUBLIC-IP' with host IP) 
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
