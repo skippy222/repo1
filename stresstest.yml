@@ -1,0 +1,14 @@
+  ---
+  - name: stress test
+    hosts: webservers
+    become: true
+    tasks:
+
+    - name: Install stress test
+      apt:
+        name: stress
+        state: present
+        update_cache: yes
+
+    - name: STRESS TEST CPU **WARNING** [CTRL]+C resquired to exit!!
+      command: stress --cpu 1 
