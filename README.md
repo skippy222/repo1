@@ -73,7 +73,7 @@ The playbook implements the following tasks:
 - Ensures Docker and ELK start with system reboot
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
- - https://docs.google.com/document/d/1Clhi9_0DnJXiklX_8d7zqyvY2Ir75BY8Je1Esa3rD2I/edit?usp=sharing
+ ![](images/ps_screenshot.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
