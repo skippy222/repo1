@@ -1,0 +1,6 @@
+Multiple challenges arise when handling large datasets, and the biggest challange is the shear volume of information. Analysts deal with such large amounts of data by centralizing and indexing the data into logging platforms. When collected to a central location, logs are set to a common format to ensure uniformity and avoid confusion. Along with indexing, a logging platform makes data readily available and searchable for efficient log analysis. 
+In project1 we dealt with failed login attempt data using Kibana to verify that our Security Group rules were working. 
+We also looked at the number of visitors by country, host logs, file type logs and response codes.
+We did not have an extremely large amount of data to analyze.
+We needed to find failed ssh logins.
+We did not inspect cookies which could have revealed more detailed traffic information, but would not have chanaged my conclusions.

@@ -1,0 +1,10 @@
+There are advantages, disadvantages and appropriate times when using a corporate VPN. 
+One of the advantages in todays world is that a VPN ensures that customer and company data is as safe as it can be with this cost effective method, even providing a secure network when working remote.
+Some disadvantages are the slow connection speeds, the complicated set-up, bandwidth limits and the biggest issue of dropped connections.  
+In our "cloud project" we created 3 virtual machines and used our jump box provisioner as our VPN gateway. 
+A virtual network gateway is composed of two or more VMs that are deployed to a specific subnet.
+An advantage of using non-VPN is that some VPN providers log user data, which is counter productive of what we're trying to do with being on a secure network.  
+Some disadvantages would be that in some countries VPN use is illegal; and a question a user might ask that is the VPN's location able to serve the speeds I need. 
+In Project1 we needed to use the gateway provisioner in the cloud network as our VPN.
+VPNs are always good solutions when using non-trusted Wi-Fi networks to maintain a bit of anonymity on the network.
+For the most part VPN use can never be "overkill", security is most effectively applied in layers; but if you're just at home and have secure WiFi set up at your house; i.e. your WiFi router isn’t broadcasting its name and accessing the WiFi network requires a password; a VPN may be considered overkill.

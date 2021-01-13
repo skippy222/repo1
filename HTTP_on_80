@@ -1,0 +1,4 @@
+Upon discovery of a non-compliant server running unencrypted HTTP on port 80, despite compliance requiring encryption in motion, I would notify the ITs response capability of the error; shut down the server, change the protocol to HTTPS and then reroute all traffic to port 443. 
+In our project we had our Load Balancer and the DVWA open to port 80 due to the rules we set within our Network Security Group. The firewall(Network Security GroupX) would be reconfigured in an actual deployment to not allow that traffic on port 80.
+The potential problem with running HTTP over port 80 is that any “man in the middle” could read the transmission in plain text. 
+The reconfiguration of the NSG should not break any clients and this solution seems like a “set and forget” so no further maintenance is required.
